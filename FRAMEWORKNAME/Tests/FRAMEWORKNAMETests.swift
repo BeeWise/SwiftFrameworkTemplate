@@ -1,8 +1,8 @@
 //
-//  FRAMEWORKNAMESpec.swift
-//  FRAMEWORKNAME
+//  FRAMEWORKNAMETests.swift
+//  FRAMEWORKNAMETests-iOS
 //
-//  Created by FRAMEWORKFULLNAME on 01/04/19.
+//  Created by Crasneanu Cristian on 11/04/2019.
 //  Copyright © 2019 FRAMEWORKGITHUBNAME. All rights reserved.
 //
 
