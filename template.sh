@@ -12,6 +12,7 @@ replace "FRAMEWORKBUNDLEIDENTIFIER" "{{ cookiecutter.bundle_identifier }}"
 replace "FRAMEWORKFULLNAME" "{{ cookiecutter.full_name }}"
 replace "FRAMEWORKEMAIL" "{{ cookiecutter.email }}"
 replace "FRAMEWORKGITHUBNAME" "{{ cookiecutter.github_name }}"
+replace "FRAMEWORKGITHUBREPONAME" "{{ cookiecutter.github_reponame }}"
 replace "FRAMEWORKHOMEPAGE" "{{ cookiecutter.homepage }}"
 replace "FRAMEWORKTWITTER" "{{ cookiecutter.twitter }}"
 
