@@ -6,16 +6,11 @@
 //  Copyright © 2019 {{ cookiecutter.github_name }}. All rights reserved.
 //
 
-import Quick
-import Nimble
+import XCTest
 @testable import {{ cookiecutter.name }}
 
-class {{ cookiecutter.name }}Spec: QuickSpec {
-    override func spec() {
-        describe("{{ cookiecutter.name }}Spec") {
-            it("works") {
-                expect({{ cookiecutter.name }}.name) == "{{ cookiecutter.name }}"
-            }
-        }
+class {{ cookiecutter.name }}Tests: XCTestCase {
+    func testFrameworkName() {
+        XCTAssertEqual({{ cookiecutter.name }}.name, "{{ cookiecutter.name }}")
     }
 }
